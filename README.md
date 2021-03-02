@@ -21,3 +21,6 @@ To use traditional Chinese, we need to provide a translation file called: chines
 
 ## Use my pre-translated file ##
 Please use the translation file in **prebuilt** and copy to your Ryzen Master folder (%ProgramFiles%\AMD\RyzenMaster).
+
+## Tested Ryzen Master Version ##
+Ver: 2.6.1.1797
