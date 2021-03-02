@@ -5,7 +5,7 @@ Ryzen Maser Traditional Chinese Translator
 RM (Ryzen Maser)'s Chinese display is not very friendly and perfectly. His default font uses **mingliu.ttc**, but it does not support the Chinese translation version. Therefore, we intend to provide a translation ourselves.
 
 ## Preview ##
-![RyzerMaster-zhTW-screenshot](https://github.com/allenk/RyzenMaster-zhTW-Translator/raw/master/Artwork/RyzerMaster-zhTW.png)
+![RyzerMaster-zhTW-screenshot](https://github.com/allenk/RyzenMaster-zhTW-Translator/blob/master/Artwork/RyzerMaster-zhTW.png)
 
 ## How it works ##
 Because RM uses QT to design the software. Therefore, we can use QT's resource editor to create and change the translated QM files for i18n.
