@@ -48,7 +48,7 @@ $phraseList = @{
     '列地址選通脈衝延遲' = '列地址選通脈衝延遲(tCL)';
     '行地址預充電延遲' = '行地址預充電延遲(tRP)';
     '寫入行列地址延遲' = '寫入行列地址延遲(tRCD W)';
-	'寫入 CAS 延遲' = '寫入 CAS 延遲(tWCL)'
+    '寫入 CAS 延遲' = '寫入 CAS 延遲(tWCL)'
 }
 
 # test parameters

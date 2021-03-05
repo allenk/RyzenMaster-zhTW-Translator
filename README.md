@@ -5,7 +5,12 @@ Ryzen Maser Traditional Chinese Translator
 RM (Ryzen Maser)'s Chinese display is not very friendly and perfectly. His default font uses **mingliu.ttc**, but it does not support the Chinese translation version. Therefore, we intend to provide a translation ourselves.
 
 ## Preview ##
+Translating with the New Phrase Tool.  
 ![RyzenMaster-zhTW-screenshot](/Artwork/RyzerMaster-zhTW.png?raw=true "Ryzen Master Tradition Chinese")
+
+Translating only SC to TC.  
+![RyzenMaster-zhTW-screenshot](/Artwork/RyzerMaster-zhTW_0.png?raw=true "Ryzen Master Tradition Chinese")
+
 
 ## How it works ##
 Because RM uses QT to design the software. Therefore, we can use QT's resource editor to create and change the translated QM files for i18n.
@@ -28,6 +33,34 @@ Because our translation is based on the Simplified Chinese version, some common 
 ```powershell
 .\replace_zhtw_idiomatic.ps1 .\chinese_traditional.ts .\chinese_traditional1.ts
 ```
+
+### Phrases_Tools ###
+Provide new phrase tool uses opencc and Microsoft word to convert Simplified Chinese to Traditional.
+
+* opencc setup:  
+  * Download [opencc](https://github.com/BYVoid/OpenCC)
+  * Configure the opencc_conv.ps1 in folder: **phrases_tools**
+    ```powershell    
+    # opencc paths
+    $OPEN_CC_FILEPATH         = "C:\opencc\bin\opencc.exe"
+    $OPEN_CC_TW2SP_FILEPATH   = "C:\opencc\data\config\s2twp.json"
+    ```
+* Office Word setup:  
+  * Install office word.
+  * We use VBScript to use Automation Word objects to call office convert API to convert chinese_traditional.ts
+
+* Convert Rules:
+  1. Convert in opencc.
+  2. Convert opencc result in Word convert. 
+  3. Apply **replace_zhtw_idiomatic.ps1** convert. (final phrases fix)
+
+* Test It:  
+    ```bat
+    cd phrases_tools
+    convert.cmd
+    ```
+* Preview:  
+![RyzenMaster-zhTW-Phrases](/Artwork/tc_phrases_convert.png?raw=true "Translating with the New Phrase Tool")
 
 ## Tested Ryzen Master Version ##
 Ver: 2.6.1.1797
