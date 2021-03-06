@@ -1,4 +1,4 @@
-# RyzenMaster-zhTW-Translator
+# RyzenMaster-zhTW-Translator 正體中文翻譯工具
 Ryzen Maser Traditional Chinese Translator
 
 ## Motivation ##
