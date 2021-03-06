@@ -1,5 +1,6 @@
 # RyzenMaster-zhTW-Translator
 Ryzen Maser Traditional Chinese Translator
+Ryzen Master 正體中文翻譯工具
 
 ## Motivation ##
 RM (Ryzen Maser)'s Chinese display is not very friendly and perfectly. His default font uses **mingliu.ttc**, but it does not support the Chinese translation version. Therefore, we intend to provide a translation ourselves.
