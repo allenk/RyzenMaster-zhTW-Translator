@@ -62,5 +62,9 @@ Provide new phrase tool uses opencc and Microsoft word to convert Simplified Chi
 * Preview:  
 ![RyzenMaster-zhTW-Phrases](/Artwork/tc_phrases_convert.png?raw=true "Translating with the New Phrase Tool")
 
+## Article ##
+[Traditional Chinese Translation of Ryzen Master (Chinese Version)](https://allenkuo.medium.com/%E7%B0%A1%E6%98%93%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87%E5%8C%96%E6%96%B9%E6%B3%95%E7%A0%94%E7%A9%B6-ed1e8898aba0?source=friends_link&sk=113c52bceda5c82db90404bb801883ef)
+
+
 ## Tested Ryzen Master Version ##
 Ver: 2.6.1.1797
