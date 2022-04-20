@@ -67,4 +67,4 @@ Provide new phrase tool uses opencc and Microsoft word to convert Simplified Chi
 
 
 ## Tested Ryzen Master Version ##
-Ver: 2.6.1.1797
+Ver: 2.9.0.2093
