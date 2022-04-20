@@ -9,10 +9,46 @@
     </message>
 </context>
 <context>
-    <name>warningPage</name>
+    <name>WarningPage</name>
     <message>
         <source></source>
         <translation></translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>确定</translation>
+    </message>
+    <message>
+        <source>Overclocking feature is not supported by the processor. Hence only current view is visible and you will not be able to switch to other profiles.</source>
+        <translation>处理器不支持超频功能。 因此，只有当前视图是可见的，您将不能切换到其他配置文件。</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>    AMD processors, including chipsets, CPUs, APUs and GPUs (collectively and individually “AMD processor”), are intended to be operated only within their associated specifications and factory settings. Operating your AMD processor outside of official AMD specifications or outside of factory settings, including but not limited to the conducting of overclocking (including use of this overclocking software, even if such software has been directly or indirectly provided by AMD or an entity otherwise affiliated in any way with AMD), may damage your processor, affect the operation of your processor or the security features therein and/or lead to other problems, including but not limited to damage to your system components (including your motherboard and components thereon (e.g., memory)), system instabilities (e.g., data loss and corrupted images), reduction in system performance, shortened processor, system component and/or system life, and in extreme cases, total system failure. It is recommended that you save any important data before using the tool.  AMD does not provide support or service for issues or damages related to use of an AMD processor outside of official AMD specifications or outside of factory settings. You may also not receive support or service from your board or system manufacturer. Please make sure you have saved all important data before using this overclocking software</source>
+        <translation>    AMD 处理器（包括芯片组、CPU、APU 和 GPU，统称和单独称为“AMD 处理器”）仅适用于在其相关规格和出厂设置下运行。 违反 AMD 官方规格或出厂设置操作您的 AMD 处理器，包括但不限于采用超频技术（包括使用本超频软件，即使该软件直接或间接由 AMD 或 AMD 关联实体提供），可能会损坏您的处理器，影响您的处理器或其中安全特性的运行，并且/或者导致其它问题，包括但不限于您的系统部件受损（包括主板及其部件（例如显存））、系统不稳定（例如数据丢失和图像受损）、系统性能下降、处理器/系统部件和/或系统寿命缩短，在极端情况下，甚至导致整个系统发生故障。 建议在使用本工具之前先保存所有重要数据。因违反 AMD 官方规格或出厂设置使用 AMD 处理器而导致问题或损坏，AMD 将不提供支持或服务。 您也可能无法获得主板或系统制造商的支持或服务。 请在使用此超频软件前，确保已保存所有重要的数据</translation>
+    </message>
+    <message>
+        <source>    DAMAGES CAUSED BY USE OF YOUR AMD PROCESSOR OUTSIDE OF OFFICIAL AMD SPECIFICATIONS OR OUTSIDE OF FACTORY SETTINGS ARE NOT COVERED UNDER ANY AMD PRODUCT WARRANTY AND MAY NOT BE COVERED BY YOUR BOARD OR SYSTEM MANUFACTURER’S WARRANTY.</source>
+        <translation>    违反 AMD 官方规格或出厂设置使用您的 AMD 处理器而导致的损坏不属于任何 AMD 产品的保修范围，也不属于主板或系统制造商的保修范围。</translation>
+    </message>
+    <message>
+        <source>Are you facing multiple loop restart or system hang after clicking OK button ?</source>
+        <translation>点击“确定”按钮后是否面临多个循环重新启动或系统挂起？</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>警告</translation>
+    </message>
+    <message>
+        <source>Overclocking feature is disabled in BIOS. Hence only current view is visible and you will not be able to switch to other profiles.</source>
+        <translation>BIOS 中已禁用超频功能。 因此只有当前视图可见，您不能切换到其它配置文件。</translation>
+    </message>
+    <message>
+        <source>Click on this button and Ryzen Master will be loaded without applying unstable profile values.</source>
+        <translation>点击此按钮，将加载 Ryzen Master，无需应用不稳定的配置文件值。</translation>
     </message>
 </context>
 <context>
@@ -59,6 +95,10 @@
     <message>
         <source>8</source>
         <translation>8</translation>
+    </message>
+    <message>
+        <source>%L1</source>
+        <translation></translation>
     </message>
     <message>
         <source>CCD </source>
@@ -113,6 +153,10 @@
         <translation>收缩</translation>
     </message>
     <message>
+        <source>Partial cores can not be enabled, all CCD&apos;s needs to be enabled</source>
+        <translation>部分核心不能启用，需要启用所有 CCD</translation>
+    </message>
+    <message>
         <source>BIOS limit: </source>
         <translation>BIOS 限制： </translation>
     </message>
@@ -133,6 +177,10 @@
         <translation>将一个核心的频率镜像到 CCD 的其他所有核心 </translation>
     </message>
     <message>
+        <source>Core parking is not available with the current BIOS. </source>
+        <translation>当前 BIOS 不支持核心停摆。</translation>
+    </message>
+    <message>
         <source>Step size: </source>
         <translation>步长： </translation>
     </message>
@@ -149,20 +197,54 @@
         <translation>设置主动式 CCD 模式 </translation>
     </message>
     <message>
+        <source>Partial cores can not be enabled, all cores needs to be enabled</source>
+        <translation>部分核心不能启用，需要启用所有核心</translation>
+    </message>
+    <message>
         <source>CCX disabled is not supported. Number of active cores in individual CCX should be more than 1</source>
         <translation>不支持已禁用的 CCX. 单个 CCX 中的活动核心数应超过 1</translation>
+    </message>
+    <message>
+        <source>Enabled</source>
+        <translation>已启用</translation>
+    </message>
+    <message>
+        <source>Partial cores/CCDs can not be enabled/disabled when LCM is ON. Turn off LCM to enable/disable cores/CCDs</source>
+        <translation>LCM 启用时，部分核心/CCD 不能启用/禁用。关掉 LCM 以启用/禁用核心/CCD</translation>
     </message>
     <message>
         <source>Invalid Symmetry for core disabled. Number of cores should be same across active CCX </source>
         <translation>已禁用核心的无效对称性。活动 CCX 上的核心数应相同 </translation>
     </message>
     <message>
-        <source>Partial cores can not be enabled, all cores needs to be enabled to disable some cores</source>
-        <translation>无法启用部分核心，需要启用所有核心以禁用某些核心</translation>
-    </message>
-    <message>
         <source>Invalid count for core disabled. Number of active cores should be more than </source>
         <translation>已禁用核心数无效。活动核心数应超过 </translation>
+    </message>
+</context>
+<context>
+    <name>CoBinaryOptimization</name>
+    <message>
+        <source>C</source>
+        <translation>C</translation>
+    </message>
+    <message>
+        <source>Die Number </source>
+        <translation>​裸片数</translation>
+    </message>
+    <message>
+        <source>Estimated Time Left: </source>
+        <translation>预计剩余时间：</translation>
+    </message>
+</context>
+<context>
+    <name>CurveOptimizerHandler</name>
+    <message>
+        <source>C</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Die Number </source>
+        <translation>​裸片数</translation>
     </message>
 </context>
 <context>
@@ -202,6 +284,51 @@
     <message>
         <source>Turn Off</source>
         <translation>关闭</translation>
+    </message>
+</context>
+<context>
+    <name>CurveOptimizerStatus</name>
+    <message>
+        <source> %</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Completion Status</source>
+        <translation>完成状态</translation>
+    </message>
+    <message>
+        <source>Stop Optimizing</source>
+        <translation>停止优化</translation>
+    </message>
+    <message>
+        <source>Optimizing the system for best performance
+</source>
+        <translation>优化系统以达到最佳性能</translation>
+    </message>
+    <message>
+        <source>Curve Optimizer Method: </source>
+        <translation>曲线优化器方法：</translation>
+    </message>
+</context>
+<context>
+    <name>NvcCurveOptimizerDerivingPage</name>
+    <message>
+        <source> %</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Click to Stop optimizing the values</source>
+        <translation>单击以停止参数优化</translation>
+    </message>
+    <message>
+        <source>Optimizing the system for best performance, this will take time and may need multiple system restart, please wait...
+
+</source>
+        <translation>正在优化系统以达到最佳性能。这将花费一段时间，并可能需要多次系统重启，请稍候...</translation>
+    </message>
+    <message>
+        <source>Stop Optimizing</source>
+        <translation>停止优化</translation>
     </message>
 </context>
 <context>
@@ -346,12 +473,20 @@
         <translation>NPS</translation>
     </message>
     <message>
+        <source>Max</source>
+        <translation>最高</translation>
+    </message>
+    <message>
         <source>OFF</source>
         <translation>关</translation>
     </message>
     <message>
+        <source>Min</source>
+        <translation>最低</translation>
+    </message>
+    <message>
         <source> CCD</source>
-        <translation> CCD</translation>
+        <translation></translation>
     </message>
     <message>
         <source> MHz</source>
@@ -370,6 +505,10 @@
         <translation>自动</translation>
     </message>
     <message>
+        <source>MT/s</source>
+        <translation></translation>
+    </message>
+    <message>
         <source>NPS2</source>
         <translation>NPS2</translation>
     </message>
@@ -386,8 +525,16 @@
         <translation> 欧姆</translation>
     </message>
     <message>
+        <source>CO - </source>
+        <translation>CO -&#xa0;</translation>
+    </message>
+    <message>
         <source>Disabled</source>
         <translation>已禁用</translation>
+    </message>
+    <message>
+        <source>CO - OFF</source>
+        <translation>CO - 关闭</translation>
     </message>
     <message>
         <source>OC Mode</source>
@@ -410,16 +557,16 @@
         <translation> °C，限制 </translation>
     </message>
     <message>
+        <source>CO Mode</source>
+        <translation>CO 模式</translation>
+    </message>
+    <message>
         <source>Enabled</source>
         <translation>已启用</translation>
     </message>
     <message>
         <source>Temperature</source>
         <translation>温度</translation>
-    </message>
-    <message>
-        <source>Infinity </source>
-        <translation>Infinity </translation>
     </message>
     <message>
         <source>Processor Temperature</source>
@@ -457,8 +604,16 @@
         <translation>NPS</translation>
     </message>
     <message>
+        <source>Max</source>
+        <translation>最高</translation>
+    </message>
+    <message>
         <source>OFF</source>
         <translation>关</translation>
+    </message>
+    <message>
+        <source>Min</source>
+        <translation>最低</translation>
     </message>
     <message>
         <source>Ohm</source>
@@ -466,11 +621,15 @@
     </message>
     <message>
         <source> CCD</source>
-        <translation> CCD</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Auto</source>
         <translation>自动</translation>
+    </message>
+    <message>
+        <source>MT/s</source>
+        <translation></translation>
     </message>
     <message>
         <source>NPS2</source>
@@ -489,12 +648,32 @@
         <translation> 欧姆</translation>
     </message>
     <message>
+        <source>CO - </source>
+        <translation>CO -&#xa0;</translation>
+    </message>
+    <message>
         <source>Disabled</source>
         <translation>已禁用</translation>
     </message>
     <message>
+        <source>CO - OFF</source>
+        <translation>CO - 关闭</translation>
+    </message>
+    <message>
+        <source>CO Core </source>
+        <translation>CO 核心</translation>
+    </message>
+    <message>
+        <source> Value</source>
+        <translation>值</translation>
+    </message>
+    <message>
         <source>OC Mode</source>
         <translation>OC模式</translation>
+    </message>
+    <message>
+        <source>CO All Core Value</source>
+        <translation>CO 全部核心值</translation>
     </message>
     <message>
         <source> bus clocks</source>
@@ -503,6 +682,10 @@
     <message>
         <source>Temperature, Speed, Power &amp; Current</source>
         <translation>温度、速度、功率和电流</translation>
+    </message>
+    <message>
+        <source>CO Mode</source>
+        <translation>CO 模式</translation>
     </message>
     <message>
         <source>Histogram</source>
@@ -528,12 +711,20 @@
         <translation>2T</translation>
     </message>
     <message>
+        <source>%L1</source>
+        <translation></translation>
+    </message>
+    <message>
         <source>CCD</source>
-        <translation>CCD</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Auto</source>
         <translation>自动</translation>
+    </message>
+    <message>
+        <source>In MT/s</source>
+        <translation>单位：MT/s</translation>
     </message>
     <message>
         <source>Ohms</source>
@@ -662,6 +853,10 @@
         <translation>MHz</translation>
     </message>
     <message>
+        <source>Off</source>
+        <translation>关</translation>
+    </message>
+    <message>
         <source>°C</source>
         <translation>°C</translation>
     </message>
@@ -678,6 +873,10 @@
         <translation>控制模式</translation>
     </message>
     <message>
+        <source>Curve Optimizer</source>
+        <translation>曲线优化器</translation>
+    </message>
+    <message>
         <source>Maximum</source>
         <translation>最大值</translation>
     </message>
@@ -686,12 +885,24 @@
         <translation>VDDCR SOC 电压 (V)</translation>
     </message>
     <message>
+        <source>Mode:  </source>
+        <translation>模式：  </translation>
+    </message>
+    <message>
+        <source>GFX Offset</source>
+        <translation>GFX 偏移</translation>
+    </message>
+    <message>
         <source>Current processor temperature (°C)</source>
         <translation>当前处理器温度 (°C)</translation>
     </message>
     <message>
         <source>VDDCR SOC</source>
         <translation>VDDCR 片上系统</translation>
+    </message>
+    <message>
+        <source>Current Curve Optimizer mode the processor is operating in</source>
+        <translation>处理器的当前曲线优化器模式为</translation>
     </message>
     <message>
         <source>Current mode the processor is operating in</source>
@@ -748,6 +959,10 @@
         <translation>展开</translation>
     </message>
     <message>
+        <source>Auto Offset</source>
+        <translation>自动偏移</translation>
+    </message>
+    <message>
         <source>Push All Auto</source>
         <translation>自动推送全部</translation>
     </message>
@@ -756,12 +971,24 @@
         <translation>收缩</translation>
     </message>
     <message>
+        <source>Manual Offset</source>
+        <translation>手动偏移</translation>
+    </message>
+    <message>
         <source>Showing fastest cores for overclocking</source>
         <translation>显示最快的超频核心</translation>
     </message>
     <message>
+        <source>Showing derived offset values</source>
+        <translation>显示导出的偏移值</translation>
+    </message>
+    <message>
         <source>Showing Windows preferred cores</source>
         <translation>显示 Windows 首选核心</translation>
+    </message>
+    <message>
+        <source>Allows user to set offset values</source>
+        <translation>允许用户设置偏移值</translation>
     </message>
     <message>
         <source>Push All Manual</source>
@@ -803,6 +1030,10 @@
         <translation>设置已成功保存</translation>
     </message>
     <message>
+        <source>Allow AMD to collect your usage information in order to help us improve our products and services.</source>
+        <translation>允许&#xa0;AMD 收集您的使用信息，以帮助我们提升产品和服务。</translation>
+    </message>
+    <message>
         <source>Don&apos;t show warning message</source>
         <translation>不显示此信息</translation>
     </message>
@@ -819,6 +1050,10 @@
         <translation>取消</translation>
     </message>
     <message>
+        <source>Opt In</source>
+        <translation>加入</translation>
+    </message>
+    <message>
         <source> requires System Restart with current control mode</source>
         <translation> 需要使用当前的控制模式重新启动系统</translation>
     </message>
@@ -827,8 +1062,20 @@
         <translation>测试持续时间</translation>
     </message>
     <message>
+        <source>Are you sure you want to unsubscribe the AMD User Experience Program?</source>
+        <translation>您确定要退订&#xa0;AMD 用户体验计划吗?</translation>
+    </message>
+    <message>
         <source> if the system is in </source>
         <translation> 如果系统处于 </translation>
+    </message>
+    <message>
+        <source>Opt Out</source>
+        <translation>退订</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>选项</translation>
     </message>
     <message>
         <source> will move system to </source>
@@ -845,6 +1092,10 @@
     <message>
         <source>Switching </source>
         <translation>切换 </translation>
+    </message>
+    <message>
+        <source>AMD User Experience Program</source>
+        <translation>AMD 用户体验计划</translation>
     </message>
     <message>
         <source>NOTE: After restart system will be in </source>
@@ -874,8 +1125,16 @@
         <translation>确定</translation>
     </message>
     <message>
+        <source>Start Intermediate</source>
+        <translation>从中间开始</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>取消</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>继续</translation>
     </message>
     <message>
         <source>Restart the system.</source>
@@ -884,6 +1143,10 @@
     <message>
         <source>If HPET is already enabled, then no action is performed else the HPET.bat file will enable HPET.</source>
         <translation>如果已启用 HPET，则不执行任何操作。否则，HPET.bat 文件将启用 HPET。</translation>
+    </message>
+    <message>
+        <source>Start Over</source>
+        <translation>重新开始</translation>
     </message>
     <message>
         <source>Note: If system is not restarted after HPET is enabled,the APIs may not behave as expected.</source>
@@ -913,6 +1176,10 @@
         <translation>全部</translation>
     </message>
     <message>
+        <source>MHz</source>
+        <translation>MHz</translation>
+    </message>
+    <message>
         <source>Min</source>
         <translation>最低</translation>
     </message>
@@ -929,8 +1196,16 @@
         <translation>单位为天</translation>
     </message>
     <message>
+        <source>MT/s</source>
+        <translation></translation>
+    </message>
+    <message>
         <source>Time</source>
         <translation>时间</translation>
+    </message>
+    <message>
+        <source>Memory Clock Unit</source>
+        <translation>​内存时钟单元</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -947,6 +1222,14 @@
     <message>
         <source>Settings Saved Successfully</source>
         <translation>设置已成功保存</translation>
+    </message>
+    <message>
+        <source>This will reset the DashBoard and Minimized DashBoard preferences to &apos;Default&apos; state.</source>
+        <translation>这将把控制面板和最小化控制面板的首选项重置为“默认”状态。</translation>
+    </message>
+    <message>
+        <source>Allow AMD to collect your usage information in order to help us improve our products and services.</source>
+        <translation>允许&#xa0;AMD 收集您的使用信息，以帮助我们提升产品和服务。</translation>
     </message>
     <message>
         <source>Check for Updates</source>
@@ -1001,12 +1284,12 @@
         <translation>这将启动后台进程以检查可用的任何锐龙 Ryzen Master 更新。</translation>
     </message>
     <message>
-        <source>This will reset the DashBoard and Minimzed DashBoard preferences to &apos;Default&apos; state.</source>
-        <translation>此操作会将操纵板和最小化操纵板首选项重置为“默认”状态。</translation>
-    </message>
-    <message>
         <source>System Monitor</source>
         <translation>系统监视器</translation>
+    </message>
+    <message>
+        <source>Opt In</source>
+        <translation>加入</translation>
     </message>
     <message>
         <source>PROCHOT</source>
@@ -1033,8 +1316,16 @@
         <translation>测试持续时间</translation>
     </message>
     <message>
+        <source>Are you sure you want to unsubscribe the AMD User Experience Program?</source>
+        <translation>您确定要退订&#xa0;AMD 用户体验计划吗?</translation>
+    </message>
+    <message>
         <source> if the system is in </source>
         <translation> 如果系统处于 </translation>
+    </message>
+    <message>
+        <source>Opt Out</source>
+        <translation>退订</translation>
     </message>
     <message>
         <source>Options</source>
@@ -1077,6 +1368,10 @@
         <translation>切换 </translation>
     </message>
     <message>
+        <source>AMD User Experience Program</source>
+        <translation>AMD 用户体验计划</translation>
+    </message>
+    <message>
         <source>NOTE: After restart system will be in </source>
         <translation>注意：重启后系统将进入 </translation>
     </message>
@@ -1095,6 +1390,10 @@
     <message>
         <source>Settings</source>
         <translation>设置</translation>
+    </message>
+    <message>
+        <source>User Experience Program</source>
+        <translation>用户体验计划</translation>
     </message>
     <message>
         <source>Live Monitoring</source>
@@ -1122,49 +1421,173 @@
     </message>
 </context>
 <context>
-    <name>WarningPage</name>
+    <name>OcMode</name>
     <message>
-        <source>OK</source>
-        <translation>确定</translation>
+        <source>ON</source>
+        <translation>开</translation>
     </message>
     <message>
-        <source>Cancel</source>
-        <translation>取消</translation>
+        <source>OFF</source>
+        <translation>关</translation>
     </message>
     <message>
-        <source>    AMD processors, including chipsets, CPUs, APUs and GPUs (collectively and individually “AMD processor”), are intended to be operated only within their associated specifications and factory settings. Operating your AMD processor outside of official AMD specifications or outside of factory settings, including but not limited to the conducting of overclocking (including use of this overclocking software, even if such software has been directly or indirectly provided by AMD or an entity otherwise affiliated in any way with AMD), may damage your processor, affect the operation of your processor or the security features therein and/or lead to other problems, including but not limited to damage to your system components (including your motherboard and components thereon (e.g., memory)), system instabilities (e.g., data loss and corrupted images), reduction in system performance, shortened processor, system component and/or system life, and in extreme cases, total system failure. It is recommended that you save any important data before using the tool.  AMD does not provide support or service for issues or damages related to use of an AMD processor outside of official AMD specifications or outside of factory settings. You may also not receive support or service from your board or system manufacturer. Please make sure you have saved all important data before using this overclocking software</source>
-        <translation>    AMD 处理器（包括芯片组、CPU、APU 和 GPU，统称和单独称为“AMD 处理器”）仅适用于在其相关规格和出厂设置下运行。 违反 AMD 官方规格或出厂设置操作您的 AMD 处理器，包括但不限于采用超频技术（包括使用本超频软件，即使该软件直接或间接由 AMD 或 AMD 关联实体提供），可能会损坏您的处理器，影响您的处理器或其中安全特性的运行，并且/或者导致其它问题，包括但不限于您的系统部件受损（包括主板及其部件（例如显存））、系统不稳定（例如数据丢失和图像受损）、系统性能下降、处理器/系统部件和/或系统寿命缩短，在极端情况下，甚至导致整个系统发生故障。 建议在使用本工具之前先保存所有重要数据。因违反 AMD 官方规格或出厂设置使用 AMD 处理器而导致问题或损坏，AMD 将不提供支持或服务。 您也可能无法获得主板或系统制造商的支持或服务。 请在使用此超频软件前，确保已保存所有重要的数据</translation>
+        <source>Eco-Mode sets the processor to operate in a lower-power condition</source>
+        <translation>节能模式将处理器设置为在低功耗条件下运行</translation>
     </message>
     <message>
-        <source>    DAMAGES CAUSED BY USE OF YOUR AMD PROCESSOR OUTSIDE OF OFFICIAL AMD SPECIFICATIONS OR OUTSIDE OF FACTORY SETTINGS ARE NOT COVERED UNDER ANY AMD PRODUCT WARRANTY AND MAY NOT BE COVERED BY YOUR BOARD OR SYSTEM MANUFACTURER’S WARRANTY.</source>
-        <translation>    违反 AMD 官方规格或出厂设置使用您的 AMD 处理器而导致的损坏不属于任何 AMD 产品的保修范围，也不属于主板或系统制造商的保修范围。</translation>
+        <source>Sets a maximum boost frequency higher than the stock frequency</source>
+        <translation>设置高于默认设置频率的最大超频频率</translation>
     </message>
     <message>
-        <source>Are you facing multiple loop restart or system hang after clicking OK button ?</source>
-        <translation>点击“确定”按钮后是否面临多个循环重新启动或系统挂起？</translation>
+        <source>Manual Mode</source>
+        <translation>手动模式</translation>
     </message>
     <message>
-        <source>Overclocking feature is not supported by the PROCESSOR. Hence only current view is visible and you will not be able to switch to other profiles.</source>
-        <translation>该处理器不支持超频功能，因此只有当前视图可见，且您将无法切换至其他配置文件。</translation>
+        <source>Allows the processor to run beyond the default infrastructure limits up to the limits of the board to potentially achieve higher sustained frequencies</source>
+        <translation>允许处理器超出默认基础架构限制运行，最高达到主板的上限，以潜在实现更高的持久频率</translation>
     </message>
     <message>
-        <source>Warning</source>
-        <translation>警告</translation>
+        <source>Turn On</source>
+        <translation>打开</translation>
     </message>
     <message>
-        <source>Overclocking feature is disabled in BIOS. Hence only current view is visible and you will not be able to switch to other profiles.</source>
-        <translation>BIOS 中已禁用超频功能。 因此只有当前视图可见，您不能切换到其它配置文件。</translation>
+        <source>Turn Off</source>
+        <translation>关闭</translation>
     </message>
     <message>
-        <source>Click on this button and Ryzen Master will be loaded without applying unstable profile values.</source>
-        <translation>点击此按钮，将加载 Ryzen Master，无需应用不稳定的配置文件值。</translation>
+        <source>Default infrastructure limits</source>
+        <translation>默认基础架构限制</translation>
+    </message>
+</context>
+<context>
+    <name>CoresDashboard</name>
+    <message>
+        <source>%L1</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>CCD </source>
+        <translation>CCD </translation>
+    </message>
+    <message>
+        <source>CCX </source>
+        <translation>CCX </translation>
+    </message>
+    <message>
+        <source>Core </source>
+        <translation>核心 </translation>
+    </message>
+    <message>
+        <source>Max: </source>
+        <translation>最高： </translation>
+    </message>
+    <message>
+        <source>Min: </source>
+        <translation>最低： </translation>
+    </message>
+    <message>
+        <source>Sleep</source>
+        <translation>睡眠</translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation>已禁用</translation>
+    </message>
+    <message>
+        <source>Expand</source>
+        <translation>展开</translation>
+    </message>
+    <message>
+        <source>In MHz</source>
+        <translation>单位 MHz</translation>
+    </message>
+    <message>
+        <source>Contract</source>
+        <translation>收缩</translation>
+    </message>
+    <message>
+        <source>BIOS limit: </source>
+        <translation>BIOS 限制： </translation>
+    </message>
+    <message>
+        <source>Step size: </source>
+        <translation>步长： </translation>
+    </message>
+    <message>
+        <source>Max CCX Speed </source>
+        <translation>最大 CCX 速度 </translation>
+    </message>
+</context>
+<context>
+    <name>GPUControl</name>
+    <message>
+        <source>%L1</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Max: </source>
+        <translation>最高： </translation>
+    </message>
+    <message>
+        <source>Min: </source>
+        <translation>最低： </translation>
+    </message>
+    <message>
+        <source>BIOS limit: </source>
+        <translation>BIOS 限制： </translation>
+    </message>
+</context>
+<context>
+    <name>SliderRectTxt</name>
+    <message>
+        <source>%L1</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Max: </source>
+        <translation>最高： </translation>
+    </message>
+    <message>
+        <source>Min: </source>
+        <translation>最低： </translation>
+    </message>
+    <message>
+        <source>BIOS limit: </source>
+        <translation>BIOS 限制: </translation>
+    </message>
+    <message>
+        <source>Press &quot;Apply&quot; to use your values</source>
+        <translation>按“应用”以使用您的值</translation>
+    </message>
+</context>
+<context>
+    <name>VoltageGauge</name>
+    <message>
+        <source>%L1</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Volt</source>
+        <translation>伏特</translation>
+    </message>
+    <message>
+        <source>Max: </source>
+        <translation>最高： </translation>
+    </message>
+    <message>
+        <source>Min: </source>
+        <translation>最低： </translation>
+    </message>
+    <message>
+        <source>BIOS limit: </source>
+        <translation>BIOS 限制： </translation>
     </message>
 </context>
 <context>
     <name>ImportExport</name>
     <message>
         <source>CCD</source>
-        <translation>CCD</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Done</source>
@@ -1295,6 +1718,14 @@
         <translation>没有其他信息可用</translation>
     </message>
     <message>
+        <source> [Per CCD]</source>
+        <translation>[每 CCD]</translation>
+    </message>
+    <message>
+        <source> [Per IOD]</source>
+        <translation>[每 IOD]</translation>
+    </message>
+    <message>
         <source>Select RM Profile File</source>
         <translation>选择 RM 配置文件</translation>
     </message>
@@ -1305,6 +1736,10 @@
     <message>
         <source>Select profile for </source>
         <translation>选择配置文件用于 </translation>
+    </message>
+    <message>
+        <source>SOC Voltage</source>
+        <translation>SOC 电压</translation>
     </message>
     <message>
         <source>Select Components to </source>
@@ -1485,8 +1920,16 @@
         <translation>峰值核心电压</translation>
     </message>
     <message>
+        <source>CLDO VDDG CCD</source>
+        <translation></translation>
+    </message>
+    <message>
         <source>CLDO VDDG IOD</source>
-        <translation>CLDO VDDG IOD</translation>
+        <translation></translation>
+    </message>
+    <message>
+        <source>The clock at which the I/O hub controller communicates with the processor</source>
+        <translation>I/O 控制中心以这一时钟和处理器通信</translation>
     </message>
     <message>
         <source>CKE minimum high and low pulse width</source>
@@ -1495,6 +1938,10 @@
     <message>
         <source>Control Mode</source>
         <translation>控制模式</translation>
+    </message>
+    <message>
+        <source>I/O Clock</source>
+        <translation>I/O&#xa0;​时钟</translation>
     </message>
     <message>
         <source>DRAM Termination RTT_NOM</source>
@@ -1569,6 +2016,10 @@
         <translation>DRAM 时序配置</translation>
     </message>
     <message>
+        <source>CCD Frequency Optimizer</source>
+        <translation>CCD 频率优化器</translation>
+    </message>
+    <message>
         <source>Precision Boost Overdrive</source>
         <translation>精准频率提升</translation>
     </message>
@@ -1599,6 +2050,10 @@
     <message>
         <source>Read to Read timing different DIMM</source>
         <translation>读取到读取时序，不同 DIMM</translation>
+    </message>
+    <message>
+        <source>GFX CO</source>
+        <translation>GFX CO</translation>
     </message>
     <message>
         <source>The 2T Timing feature provides one additional MEMCLK of setup time on all DDR DRAM Address and Command signals(not including CS, CKE, and ODT). Important: The memory controller doesn&apos;t support 2T mode and Gear Down enabled together</source>
@@ -1641,12 +2096,20 @@
         <translation>平均核心电压</translation>
     </message>
     <message>
+        <source>CCD Parked</source>
+        <translation>CCD 已停摆</translation>
+    </message>
+    <message>
         <source>Lower value in ohms will configure processor to drive stronger signal on CS and ODT pins</source>
         <translation>较低的欧姆值会将处理器配置为在 CS 和 ODT 针脚上生成更强的信号</translation>
     </message>
     <message>
         <source>RttNom</source>
         <translation>RttNom</translation>
+    </message>
+    <message>
+        <source>PBO Scalar</source>
+        <translation>PBO 标量</translation>
     </message>
     <message>
         <source>Boost Override APU GFX</source>
@@ -1905,6 +2368,10 @@
         <translation></translation>
     </message>
     <message>
+        <source>Curve Optimizer Control</source>
+        <translation>曲线优化器控件</translation>
+    </message>
+    <message>
         <source>All Cores</source>
         <translation>全部核心</translation>
     </message>
@@ -1967,9 +2434,152 @@
         <source>Profile section is not available since overclocking is Disabled</source>
         <translation>配置文件部分不可用，因为已禁用超频</translation>
     </message>
+</context>
+<context>
+    <name>QObject</name>
     <message>
-        <source>Select Manual control mode to enable manual overclocking controls</source>
-        <translation>选择手动控制模式以启用手动超频控制</translation>
+        <source>Off</source>
+        <translation>关</translation>
+    </message>
+    <message>
+        <source>Please close already running instance and try again.</source>
+        <translation>请关闭已经在运行的实例，然后再试。</translation>
+    </message>
+    <message>
+        <source>Core </source>
+        <translation>核心 </translation>
+    </message>
+    <message>
+        <source>Do you want to continue?</source>
+        <translation>你想继续吗？</translation>
+    </message>
+    <message>
+        <source>Hence Aborting!</source>
+        <translation>因此正在中止！</translation>
+    </message>
+    <message>
+        <source>Update to latest BIOS to enable core parking.</source>
+        <translation>更新至最新的基本输入/输出系统 (BIOS)&#xa0;才能启用核心停摆。</translation>
+    </message>
+    <message>
+        <source>Ryzen Master unable to allocate memory. Kindly restart your machine.</source>
+        <translation>Ryzen Master 无法分配内存。请重启您的机器。</translation>
+    </message>
+    <message>
+        <source>Missing AMD Processor!</source>
+        <translation>缺少 AMD 处理器！</translation>
+    </message>
+    <message>
+        <source>Ryzen Master requires Windows 10 or greater.</source>
+        <translation>Ryzen Master 需要 Windows 10 或更高版本。</translation>
+    </message>
+    <message>
+        <source>Access Denied!</source>
+        <translation>拒绝访问！</translation>
+    </message>
+    <message>
+        <source>Ryzen Master Driver not Installed properly.</source>
+        <translation>Ryzen Master Driver未正确安装。</translation>
+    </message>
+    <message>
+        <source>Ryzen Master detected change in processor type. All profile data will be reset.</source>
+        <translation>Ryzen Master检测到处理器类型的变化。将重置所有配置文件数据。</translation>
+    </message>
+    <message>
+        <source>Overclocking is not yet enabled.</source>
+        <translation>尚未启用超频。</translation>
+    </message>
+    <message>
+        <source>Ryzen Master requires Administrator rights.</source>
+        <translation>Ryzen Master 需要管理员权限。</translation>
+    </message>
+    <message>
+        <source>Core Performance Indicators Unavailable!</source>
+        <translation>核心绩效指标不可用！</translation>
+    </message>
+    <message>
+        <source>Per CCD</source>
+        <translation>每 CCD</translation>
+    </message>
+    <message>
+        <source>Click OK to enable overclocking. The configuration requested requires Ryzen Master to Restart Windows, post restart please re-open Ryzen Master</source>
+        <translation>单击“确定”以启用超频。 请求的配置需要&#xa0;Ryzen&#xa0;Master 重启&#xa0;Windows，重启后请重新打开&#xa0;Ryzen Master</translation>
+    </message>
+    <message>
+        <source>Ryzen Master does not support current processor.</source>
+        <translation>Ryzen Master 不支持当前处理器。</translation>
+    </message>
+    <message>
+        <source>Ryzen Master unable to initialize. Kindly reinstall the program.</source>
+        <translation>Ryzen Master 无法初始化。请重新安装程序。</translation>
+    </message>
+    <message>
+        <source>Click Cancel to close</source>
+        <translation>单击“取消”关闭</translation>
+    </message>
+    <message>
+        <source>Core parking is not available for the current version of BIOS.</source>
+        <translation>当前的 BIOS 版本不支持核心停摆。</translation>
+    </message>
+    <message>
+        <source>Note : Use of AMD products outside of the Specifications or outside of factory settings will void any AMD warranty.</source>
+        <translation>注意：不按照说明书或出厂设置使用&#xa0;AMD 产品将使&#xa0;AMD 保修失效。</translation>
+    </message>
+    <message>
+        <source>Ryzen Master can only run with Virtualization Based Security (VBS) disabled in the Windows operating system. Please disable VBS and re-start Ryzen Master.</source>
+        <translation>Ryzen Master只能在Windows操作系统中禁用基于虚拟化的安全性（VBS）。请禁用VBS并重新启动Ryzen Master。</translation>
+    </message>
+    <message>
+        <source>Do you want to continue without core parking feature ?</source>
+        <translation>你想要在不使用核心停摆功能的情况下继续吗？</translation>
+    </message>
+    <message>
+        <source>Ryzen Master detects another instance running.</source>
+        <translation>Ryzen Master 检测到另一个实例正在运行。</translation>
+    </message>
+    <message>
+        <source>Per Core</source>
+        <translation>每核心</translation>
+    </message>
+    <message>
+        <source>Driver Not installed!</source>
+        <translation>驱动程序未安装！</translation>
+    </message>
+    <message>
+        <source>Ryzen Master detects some cores are disabled. Core performance indicators will not be available until it is launched in stock core configuration.</source>
+        <translation>Ryzen Master检测到某些核心被禁用。核心绩效指标在以库存核心配置启动之前将无法使用。</translation>
+    </message>
+    <message>
+        <source>Virtualization-Based Security (VBS)!</source>
+        <translation>基于虚拟化的安全性（VBS）！</translation>
+    </message>
+    <message>
+        <source>Multiple Instance Access Denied!</source>
+        <translation>拒绝访问多个实例!</translation>
+    </message>
+    <message>
+        <source>All Cores</source>
+        <translation>全部核心</translation>
+    </message>
+    <message>
+        <source>All cores</source>
+        <translation>全部核心</translation>
+    </message>
+    <message>
+        <source>Ryzen Master requires AMD processor.</source>
+        <translation>Ryzen Master 需要 AMD 处理器。</translation>
+    </message>
+    <message>
+        <source>Unsupported Processor!</source>
+        <translation>处理器不受支持！</translation>
+    </message>
+    <message>
+        <source>Missing required OS!</source>
+        <translation>缺少所需的操作系统！</translation>
+    </message>
+    <message>
+        <source>Insufficient Memory!</source>
+        <translation>内存不足！</translation>
     </message>
 </context>
 <context>
@@ -2015,7 +2625,7 @@
     </message>
     <message>
         <source> to </source>
-        <translation> 至 </translation>
+        <translation>至</translation>
     </message>
     <message>
         <source>CCD </source>
@@ -2026,20 +2636,40 @@
         <translation> 和 </translation>
     </message>
     <message>
+        <source>Can not overclock APU GFX Voltage above BIOS limits</source>
+        <translation>无法将 APU GFX 电压超过 BIOS 限制电压</translation>
+    </message>
+    <message>
+        <source>CO - </source>
+        <translation>CO -&#xa0;</translation>
+    </message>
+    <message>
         <source>Core </source>
         <translation>核心 </translation>
+    </message>
+    <message>
+        <source>Can not overclock SOC Voltage above BIOS limits</source>
+        <translation>无法将 SOC 电压超过 BIOS 限制电压</translation>
     </message>
     <message>
         <source>CPU parameters are already in stock mode.</source>
         <translation>CPU 参数已处于正常范围模式。</translation>
     </message>
     <message>
+        <source> value</source>
+        <translation>值</translation>
+    </message>
+    <message>
         <source>Selected </source>
-        <translation>已选 </translation>
+        <translation>已选</translation>
     </message>
     <message>
         <source>Following configuration requested requires Ryzen Master to Restart Windows, then Ryzen Master will automatically open; wait for it.</source>
         <translation>请求的以下配置需使用锐龙 Ryzen Master 重启 Windows，然后锐龙 Ryzen Master 将 自动打开；请等待。</translation>
+    </message>
+    <message>
+        <source>All cores should be enabled</source>
+        <translation>应启用所有核心</translation>
     </message>
     <message>
         <source>Select valid values and apply again</source>
@@ -2086,6 +2716,10 @@
         <translation>无法超过 BIOS 限制的峰值核心电压</translation>
     </message>
     <message>
+        <source>GFX CO Value</source>
+        <translation>GFX CO 值</translation>
+    </message>
+    <message>
         <source>Stop Test</source>
         <translation>停止测试</translation>
     </message>
@@ -2104,6 +2738,10 @@
     <message>
         <source>Windows Preferred Core</source>
         <translation>Windows 首选核心</translation>
+    </message>
+    <message>
+        <source>Can not overclock APU GFX Clock above BIOS limits</source>
+        <translation>无法将 APU GFX 时钟频率超过 BIOS 限制频率</translation>
     </message>
     <message>
         <source>Last Applied Profile was not a stable profile.</source>
@@ -2127,7 +2765,7 @@
     </message>
     <message>
         <source> value is beyond BIOS limits. BIOS Limit are within </source>
-        <translation> 超出 BIOS 限制。 BIOS 限制范围为 </translation>
+        <translation>值超出 BIOS 限制。 BIOS 限制范围为</translation>
     </message>
     <message>
         <source>All cores should be enabled before legacy compatibility mode can be turned ON</source>
@@ -2158,6 +2796,10 @@
         <translation>要切换到手动 OC 模式，CPU 速度和峰值核心电压需要与它一起应用</translation>
     </message>
     <message>
+        <source>Last Applied Profile was not a stable profile !!</source>
+        <translation>最后应用的配置文件不是一个稳定的配置文件！！</translation>
+    </message>
+    <message>
         <source>Precision Boost Overdrive Paramater values are same as &apos;Default&apos; Control Mode</source>
         <translation>Precision Boost Overdrive 参数值与“默认”控制模式的参数值相同</translation>
     </message>
@@ -2176,6 +2818,316 @@
     <message>
         <source>Please wait...</source>
         <translation>请等待...</translation>
+    </message>
+</context>
+<context>
+    <name>CurveOptimizerPage</name>
+    <message>
+        <source> to </source>
+        <translation>至</translation>
+    </message>
+    <message>
+        <source>Apply profile</source>
+        <translation>应用配置文件</translation>
+    </message>
+    <message>
+        <source>Profile will be saved, but values not applied for operation</source>
+        <translation>将保存配置文件，但值不会用于操作</translation>
+    </message>
+    <message>
+        <source> and </source>
+        <translation> 和 </translation>
+    </message>
+    <message>
+        <source>CO - </source>
+        <translation>CO -&#xa0;</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>应用</translation>
+    </message>
+    <message>
+        <source>Reset to default system values, but values not applied for operation</source>
+        <translation>重置为默认系统值，但值不会用于操作</translation>
+    </message>
+    <message>
+        <source>Can not overclock SOC Voltage above BIOS limits</source>
+        <translation>无法将 SOC 电压超过 BIOS 限制电压</translation>
+    </message>
+    <message>
+        <source>Click on &apos;Cancel&apos; to continue with Ryzen Master Utility.
+</source>
+        <translation>单击“取消”以继续&#xa0;Ryzen Master Utility。</translation>
+    </message>
+    <message>
+        <source>Please select valid offset values and then apply again.</source>
+        <translation>请选择有效的偏移值然后重新应用。</translation>
+    </message>
+    <message>
+        <source>Click on &apos;Start Over&apos; to clear optimized values available and start optimizing from beginning.
+</source>
+        <translation>单击“重新开始”以清除优化后的值，并从头开始优化。</translation>
+    </message>
+    <message>
+        <source>Selected Curve Optimizer mode is not allowed to apply if Cores are parked.
+</source>
+        <translation>如果核心停摆，所选的曲线优化器模式不能应用。</translation>
+    </message>
+    <message>
+        <source>Save Profile</source>
+        <translation>保存配置文件</translation>
+    </message>
+    <message>
+        <source>Click &apos;OK&apos; to continue with Ryzen Master Utility.
+</source>
+        <translation>单击“确定”以继续锐龙 Master Utility。</translation>
+    </message>
+    <message>
+        <source>Copy current system values to profile, but values not applied for operation</source>
+        <translation>将当前系统值复制到配置文件中，但值不会用于操作</translation>
+    </message>
+    <message>
+        <source>Selected </source>
+        <translation>已选</translation>
+    </message>
+    <message>
+        <source>Following configuration requested requires Ryzen Master to Restart Windows, then Ryzen Master will automatically open; wait for it.</source>
+        <translation>请求的以下配置需使用锐龙 Ryzen Master 重启 Windows，然后锐龙 Ryzen Master 将 自动打开；请等待。</translation>
+    </message>
+    <message>
+        <source>Select valid values and apply again</source>
+        <translation>选择有效值并再次应用</translation>
+    </message>
+    <message>
+        <source>Can NOT apply Profile !</source>
+        <translation>无法应用配置文件！</translation>
+    </message>
+    <message>
+        <source> Validate Offset: </source>
+        <translation>使偏移生效:</translation>
+    </message>
+    <message>
+        <source>Do you want to apply now?</source>
+        <translation>是否要立即应用？</translation>
+    </message>
+    <message>
+        <source>Below are the Curve Optimizer Values that has been optimized 
+</source>
+        <translation>下面是已优化过的曲线优化器值</translation>
+    </message>
+    <message>
+        <source> Copy From Current System Status: </source>
+        <translation>从当前系统状态复制：</translation>
+    </message>
+    <message>
+        <source>Please optimize the values by clicking on ‘Start Optimizing’ button and then apply again.</source>
+        <translation>请单击“开始优化”按钮优化这些值，然后重新应用。</translation>
+    </message>
+    <message>
+        <source>Optimizing the Curve Optimizer values may result in multiple system restarts, please save your work, and close all applications before proceeding.
+
+</source>
+        <translation>对曲线优化器的值进行优化可能导致多次系统重启，请保存您的工作，并在继续前关闭所有应用。</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>失败</translation>
+    </message>
+    <message>
+        <source>NOTE: </source>
+        <translation>注意： </translation>
+    </message>
+    <message>
+        <source>The Selected Curve Optimizer Control will reset offset values applied through BIOS 
+</source>
+        <translation>所选的控制模式将重置通过基本输入/输出系统 (BIOS)&#xa0;应用的偏移值</translation>
+    </message>
+    <message>
+        <source> Save: </source>
+        <translation>保存：</translation>
+    </message>
+    <message>
+        <source>GFX CO Value</source>
+        <translation>GFX CO 值</translation>
+    </message>
+    <message>
+        <source>Optimizing the Curve Optimizer values may result in multiple system restarts, please save your work, and close all applications before proceeding.
+</source>
+        <translation>对曲线优化器的值进行优化可能导致多次系统重启，请保存您的工作，并在继续前关闭所有应用。</translation>
+    </message>
+    <message>
+        <source>Optimizing the system for best performance
+
+</source>
+        <translation>正在优化系统以达到最佳性能</translation>
+    </message>
+    <message>
+        <source>Selected Curve Optimizer mode is not allowed to apply if Memory Access Mode is enabled.
+</source>
+        <translation>如果内存访问模式已开启，所选的曲线优化器模式不能应用。</translation>
+    </message>
+    <message>
+        <source>Curve Optimizer Method : </source>
+        <translation>曲线优化器方法：</translation>
+    </message>
+    <message>
+        <source>Please disable LCM and then apply again.</source>
+        <translation>请禁用 LCM，然后重新应用。</translation>
+    </message>
+    <message>
+        <source> (Note: Applying this offset will reset Curve Optimizer Method to Off)</source>
+        <translation>(注意：应用此偏移值会将曲线优化方法重置为关闭)</translation>
+    </message>
+    <message>
+        <source>Please enable all cores and then apply again.</source>
+        <translation>请启用全部核心，然后重新应用。</translation>
+    </message>
+    <message>
+        <source>Selected Curve Optimizer mode is not allowed to apply if LCM is enabled.
+</source>
+        <translation>如果 LCM 已启用，所选的曲线优化器模式不能应用。</translation>
+    </message>
+    <message>
+        <source>Auto Overclocking Control mode does not support Boost Override CPU set to zero</source>
+        <translation>自动超频控制模式不支持 Boost Override CPU 设置为零</translation>
+    </message>
+    <message>
+        <source> Apply: </source>
+        <translation>应用： </translation>
+    </message>
+    <message>
+        <source>NOTE: Optimized values are already available for the selected method.
+</source>
+        <translation>注意：优化后的值已可用于所选方法。</translation>
+    </message>
+    <message>
+        <source>Selected Curve Optimizer mode is not allowed to apply if CCD&apos;s are disabled.
+</source>
+        <translation>如果 CCD 被禁用，所选的曲线优化器模式不能应用。</translation>
+    </message>
+    <message>
+        <source>Please enable all CCD&apos;s and then apply again.</source>
+        <translation>请启用所有的&#xa0;CCD 然后重新应用。</translation>
+    </message>
+    <message>
+        <source>Interrupted</source>
+        <translation>中断</translation>
+    </message>
+    <message>
+        <source> can not be greater than </source>
+        <translation> 不得超过 </translation>
+    </message>
+    <message>
+        <source>Optimization method has reached Max offset.
+</source>
+        <translation>优化方法已达到最大偏移。</translation>
+    </message>
+    <message>
+        <source>Success</source>
+        <translation>成功</translation>
+    </message>
+    <message>
+        <source>System should be in other than Manual control mode to Start Optimizing!!! </source>
+        <translation>系统应为非手动控制模式以使偏移值生效！！！</translation>
+    </message>
+    <message>
+        <source>Click on &apos;Start Intermediate&apos; to start the optimizing process from an intermediate value.
+</source>
+        <translation>单击“从中间开始”从一个中间值开始优化过程。</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>放弃</translation>
+    </message>
+    <message>
+        <source> value is beyond BIOS limits. BIOS Limit are within </source>
+        <translation>值超出 BIOS 限制。 BIOS 限制范围为</translation>
+    </message>
+    <message>
+        <source> Reverted To Last Saved Profile: </source>
+        <translation>还原至上次保存的配置文件：</translation>
+    </message>
+    <message>
+        <source> Reset To Defaults: </source>
+        <translation>重置为默认值：</translation>
+    </message>
+    <message>
+        <source>Values Already optimized for the selected &apos;Curve Optimizer&apos; method.
+</source>
+        <translation>已经为所选的“曲线优化器”方法优化的值。</translation>
+    </message>
+    <message>
+        <source>Auto Overclocking Control mode does not support Boost Override CPU and Boost Override APU GFX set to zero at the same time</source>
+        <translation>自动超频控制模式不支持 Boost Override CPU 和 Boost Override APU GFX 同时设置为零</translation>
+    </message>
+    <message>
+        <source>The PBO is not supported for this OPN or PCD values cannot be set from BIOS!!! </source>
+        <translation>该 OPN 不支持&#xa0;PBO，或者 PCD 的值不能通过基本输入/输出系统 (BIOS)&#xa0;设置！！！</translation>
+    </message>
+    <message>
+        <source>Do you want to proceed now?</source>
+        <translation>您希望立即继续吗？</translation>
+    </message>
+    <message>
+        <source>Selected Offset value is same as of Curve Optimizer Mode - OFF.
+</source>
+        <translation>选定偏移值与“曲线优化器模式 - 关闭”的效果相同。</translation>
+    </message>
+    <message>
+        <source>Selected Curve Optimizer mode has not been optimized.
+</source>
+        <translation>所选的曲线优化器模式还没有被优化。</translation>
+    </message>
+    <message>
+        <source>The offset values being applied will reset the current offset values through BIOS 
+</source>
+        <translation>即将应用的偏移值将会通过基本输入/输出系统 (BIOS) 重置当前偏移值</translation>
+    </message>
+    <message>
+        <source>Precision Boost Overdrive Paramater values are same as &apos;Default&apos; Control Mode</source>
+        <translation>Precision Boost Overdrive 参数值与“默认”控制模式的参数值相同</translation>
+    </message>
+    <message>
+        <source>These values can be applied through &apos;Curve Optimizer&apos; profile.</source>
+        <translation>这些值可以通过“曲线优化器”配置文件来应用。</translation>
+    </message>
+    <message>
+        <source>NOTE: Optimization for selected method was interrupted last time.
+</source>
+        <translation>注意：对所选方法的优化上次被中断。</translation>
+    </message>
+    <message>
+        <source>Click on &apos;Resume&apos; to resume the optimizing process from where it was interuppted.
+</source>
+        <translation>单击“继续”从被中断位置继续。</translation>
+    </message>
+    <message>
+        <source>Discard Profile</source>
+        <translation>放弃配置文件</translation>
+    </message>
+    <message>
+        <source>Nothing To Apply</source>
+        <translation>无可应用设置</translation>
+    </message>
+    <message>
+        <source>Curve Optimizer Method: </source>
+        <translation>曲线优化器方法：</translation>
+    </message>
+    <message>
+        <source>Copy Current</source>
+        <translation>复制当前</translation>
+    </message>
+    <message>
+        <source> are set to same value, this will push system into coupled mode.</source>
+        <translation> 设置为相同的值，这会将系统推入耦合模式。</translation>
+    </message>
+    <message>
+        <source>Reset Profile</source>
+        <translation>重置配置文件</translation>
+    </message>
+    <message>
+        <source>Please disable Memory Access Mode and then apply again.</source>
+        <translation>请禁用内存访问模式然后重新应用。</translation>
     </message>
 </context>
 <context>
@@ -2305,61 +3257,6 @@
     </message>
 </context>
 <context>
-    <name>CoresDashboard</name>
-    <message>
-        <source>CCD </source>
-        <translation>CCD </translation>
-    </message>
-    <message>
-        <source>CCX </source>
-        <translation>CCX </translation>
-    </message>
-    <message>
-        <source>Core </source>
-        <translation>核心 </translation>
-    </message>
-    <message>
-        <source>Max: </source>
-        <translation>最高： </translation>
-    </message>
-    <message>
-        <source>Min: </source>
-        <translation>最低： </translation>
-    </message>
-    <message>
-        <source>Sleep</source>
-        <translation>睡眠</translation>
-    </message>
-    <message>
-        <source>Disabled</source>
-        <translation>已禁用</translation>
-    </message>
-    <message>
-        <source>Expand</source>
-        <translation>展开</translation>
-    </message>
-    <message>
-        <source>In MHz</source>
-        <translation>单位 MHz</translation>
-    </message>
-    <message>
-        <source>Contract</source>
-        <translation>收缩</translation>
-    </message>
-    <message>
-        <source>BIOS limit: </source>
-        <translation>BIOS 限制： </translation>
-    </message>
-    <message>
-        <source>Step size: </source>
-        <translation>步长： </translation>
-    </message>
-    <message>
-        <source>Max CCX Speed </source>
-        <translation>最大 CCX 速度 </translation>
-    </message>
-</context>
-<context>
     <name>CustomComboBox</name>
     <message>
         <source>Auto</source>
@@ -2383,6 +3280,10 @@
     <message>
         <source>Done</source>
         <translation>完成</translation>
+    </message>
+    <message>
+        <source>Team</source>
+        <translation></translation>
     </message>
     <message>
         <source>About</source>
@@ -2485,8 +3386,8 @@
         <translation>概述</translation>
     </message>
     <message>
-        <source>©2021 Advanced Micro Devices, Inc.</source>
-        <translation>©2020 AMD 公司，版权所有。</translation>
+        <source>©2022 Advanced Micro Devices, Inc.</source>
+        <translation>©2022 AMD 公司，版权所有。</translation>
     </message>
     <message>
         <source>Chipset Name:</source>
@@ -2557,125 +3458,82 @@
     </message>
 </context>
 <context>
-    <name>VoltageGauge</name>
+    <name>SettingsData</name>
     <message>
-        <source>Volt</source>
-        <translation>伏特</translation>
+        <source>Memory Clock Unit</source>
+        <translation>​内存时钟单元</translation>
     </message>
     <message>
-        <source>Max: </source>
-        <translation>最高： </translation>
+        <source>Don&apos;t show warning message</source>
+        <translation>不显示此信息</translation>
     </message>
     <message>
-        <source>Min: </source>
-        <translation>最低： </translation>
+        <source>Logging</source>
+        <translation>日志</translation>
     </message>
     <message>
-        <source>BIOS limit: </source>
-        <translation>BIOS 限制： </translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <source>Please close already running instance and try again.</source>
-        <translation>请关闭已经在运行的实例，然后再试。</translation>
+        <source>Enable Minimize DashBoard</source>
+        <translation>启用最小化仪表板</translation>
     </message>
     <message>
-        <source>Core </source>
-        <translation>核心 </translation>
+        <source>RM Animations</source>
+        <translation>RM 动画</translation>
     </message>
     <message>
-        <source>Do you want to continue?</source>
-        <translation>你想继续吗？</translation>
+        <source>Log Path</source>
+        <translation>日志路径</translation>
     </message>
     <message>
-        <source>Hence Aborting!</source>
-        <translation>因此正在中止！</translation>
+        <source>Show Histogram</source>
+        <translation>显示直方图</translation>
     </message>
     <message>
-        <source>Ryzen Master unable to allocate memory. Kindly restart your machine.</source>
-        <translation>Ryzen Master 无法分配内存。请重启您的机器。</translation>
+        <source>Stress Test Type</source>
+        <translation>压力测试类型</translation>
     </message>
     <message>
-        <source>Missing AMD Processor!</source>
-        <translation>缺少 AMD 处理器！</translation>
+        <source>Language</source>
+        <translation>语言</translation>
     </message>
     <message>
-        <source>Ryzen Master requires Windows 10 or greater.</source>
-        <translation>Ryzen Master 需要 Windows 10 或更高版本。</translation>
+        <source>Persistent PCD Values</source>
+        <translation>持久 PCD 值</translation>
     </message>
     <message>
-        <source>Access Denied!</source>
-        <translation>拒绝访问！</translation>
+        <source>Histogram History</source>
+        <translation>直方图历史记录</translation>
     </message>
     <message>
-        <source>Ryzen Master Driver not Installed properly.</source>
-        <translation>Ryzen Master Driver未正确安装。</translation>
+        <source>User Experience Program</source>
+        <translation>用户体验计划</translation>
     </message>
     <message>
-        <source>Ryzen Master detected change in processor type. All profile data will be reset.</source>
-        <translation>Ryzen Master检测到处理器类型的变化。将重置所有配置文件数据。</translation>
+        <source>Advanced view</source>
+        <translation>高级模式</translation>
     </message>
     <message>
-        <source>Ryzen Master requires Administrator rights.</source>
-        <translation>Ryzen Master 需要管理员权限。</translation>
+        <source>Live Monitoring</source>
+        <translation>实时监视器</translation>
     </message>
     <message>
-        <source>Core Performance Indicators Unavailable!</source>
-        <translation>核心绩效指标不可用！</translation>
+        <source>Stress Test Duration</source>
+        <translation>压力测试持续时间</translation>
     </message>
     <message>
-        <source>Ryzen Master does not support current processor.</source>
-        <translation>Ryzen Master 不支持当前处理器。</translation>
-    </message>
-    <message>
-        <source>Ryzen Master unable to initialize. Kindly reinstall the program.</source>
-        <translation>Ryzen Master 无法初始化。请重新安装程序。</translation>
-    </message>
-    <message>
-        <source>Ryzen Master can only run with Virtualization Based Security (VBS) disabled in the Windows operating system. Please disable VBS and re-start Ryzen Master.</source>
-        <translation>Ryzen Master只能在Windows操作系统中禁用基于虚拟化的安全性（VBS）。请禁用VBS并重新启动Ryzen Master。</translation>
-    </message>
-    <message>
-        <source>Ryzen Master detects another instance running.</source>
-        <translation>Ryzen Master 检测到另一个实例正在运行。</translation>
-    </message>
-    <message>
-        <source>Driver Not installed!</source>
-        <translation>驱动程序未安装！</translation>
-    </message>
-    <message>
-        <source>Ryzen Master detects some cores are disabled. Core performance indicators will not be available until it is launched in stock core configuration.</source>
-        <translation>Ryzen Master检测到某些核心被禁用。核心绩效指标在以库存核心配置启动之前将无法使用。</translation>
-    </message>
-    <message>
-        <source>Virtualization-Based Security (VBS)!</source>
-        <translation>基于虚拟化的安全性（VBS）！</translation>
-    </message>
-    <message>
-        <source>Multiple Instance Access Denied!</source>
-        <translation>拒绝访问多个实例!</translation>
-    </message>
-    <message>
-        <source>Ryzen Master requires AMD processor.</source>
-        <translation>Ryzen Master 需要 AMD 处理器。</translation>
-    </message>
-    <message>
-        <source>Unsupported Processor!</source>
-        <translation>处理器不受支持！</translation>
-    </message>
-    <message>
-        <source>Missing required OS!</source>
-        <translation>缺少所需的操作系统！</translation>
-    </message>
-    <message>
-        <source>Insufficient Memory!</source>
-        <translation>内存不足！</translation>
+        <source>Update Interval</source>
+        <translation>更新间隔</translation>
     </message>
 </context>
 <context>
     <name>NoviceUser</name>
+    <message>
+        <source>Can not overclock APU GFX Voltage above BIOS limits</source>
+        <translation>无法将 APU GFX 电压超过 BIOS 限制电压</translation>
+    </message>
+    <message>
+        <source>CO - </source>
+        <translation>CO -&#xa0;</translation>
+    </message>
     <message>
         <source>Apply</source>
         <translation>应用</translation>
@@ -2683,6 +3541,30 @@
     <message>
         <source>Reset</source>
         <translation>重置</translation>
+    </message>
+    <message>
+        <source>The Selected Control Mode will reset offset values applied through BIOS </source>
+        <translation>所选的控制模式将重置通过基本输入/输出系统 (BIOS)&#xa0;应用的偏移值</translation>
+    </message>
+    <message>
+        <source>Click on &apos;Cancel&apos; to continue with Ryzen Master Utility.
+</source>
+        <translation>单击“取消”以继续&#xa0;Ryzen Master Utility。</translation>
+    </message>
+    <message>
+        <source>Click on &apos;Start Over&apos; to clear optimized values available and start optimizing from beginning.
+</source>
+        <translation>单击“重新开始”以清除优化后的值，并从头开始优化。</translation>
+    </message>
+    <message>
+        <source>Selected Curve Optimizer mode is not allowed to apply if Cores are parked.
+</source>
+        <translation>如果核心停摆，所选的曲线优化器模式不能应用。</translation>
+    </message>
+    <message>
+        <source>Click &apos;OK&apos; to continue with Ryzen Master Utility.
+</source>
+        <translation>单击“确定”以继续&#xa0;Ryzen Master Utility。</translation>
     </message>
     <message>
         <source>Apply &amp; Test: </source>
@@ -2697,12 +3579,27 @@
         <translation>选择有效值并再次应用</translation>
     </message>
     <message>
+        <source>These values can be applied through Curve Optimizer profile. Click &apos;OK&apos; to continue with Ryzen Master Utility 
+</source>
+        <translation>这些值可以通过“曲线优化器”配置文件来应用。 单击“确定”以继续&#xa0;Ryzen Master Utility。</translation>
+    </message>
+    <message>
         <source>Can NOT apply Profile !</source>
         <translation>无法应用配置文件！</translation>
     </message>
     <message>
         <source>Do you want to apply now?</source>
         <translation>是否要立即应用？</translation>
+    </message>
+    <message>
+        <source>Please optimize the values by clicking on ‘Start Optimizing’ button and then apply again.</source>
+        <translation>请单击“开始优化”按钮优化这些值，然后重新应用。</translation>
+    </message>
+    <message>
+        <source>Optimizing the Curve Optimizer values may result in multiple system restarts, please save your work, and close all applications before proceeding.
+
+</source>
+        <translation>对曲线优化器的值进行优化可能导致多次系统重启，请保存您的工作，并在继续前关闭所有应用。</translation>
     </message>
     <message>
         <source>Failed</source>
@@ -2737,6 +3634,10 @@
         <translation>无法超过 BIOS 限制的峰值核心电压</translation>
     </message>
     <message>
+        <source>GFX CO Value</source>
+        <translation>GFX CO 值</translation>
+    </message>
+    <message>
         <source>Apply &amp; Test</source>
         <translation>运行和测试</translation>
     </message>
@@ -2749,20 +3650,61 @@
         <translation>将处理器配置恢复为默认值。按“应用”以使用这些值</translation>
     </message>
     <message>
+        <source>Selected Curve Optimizer mode is not allowed to apply if Memory Access Mode is enabled.
+</source>
+        <translation>如果内存访问模式已开启，所选的曲线优化器模式不能应用。</translation>
+    </message>
+    <message>
+        <source>Curve Optimizer Method : </source>
+        <translation>曲线优化器方法：</translation>
+    </message>
+    <message>
+        <source>Please disable LCM and then apply again.</source>
+        <translation>请禁用 LCM，然后重新应用。</translation>
+    </message>
+    <message>
         <source>Switch to the advanced view for detailed monitoring and expanded control of overclock settings</source>
         <translation>切换到高级视图，以便详细地监视和扩展控制超频设置</translation>
+    </message>
+    <message>
+        <source>Please enable all cores and then apply again.</source>
+        <translation>请启用全部核心，然后重新应用。</translation>
+    </message>
+    <message>
+        <source>Selected Curve Optimizer mode is not allowed to apply if LCM is enabled.
+</source>
+        <translation>如果 LCM 已启用，所选的曲线优化器模式不能应用。</translation>
     </message>
     <message>
         <source>Apply: </source>
         <translation>应用: </translation>
     </message>
     <message>
+        <source>NOTE: Optimized values are already available for the selected method.
+</source>
+        <translation>注意：优化后的值已可用于所选方法。</translation>
+    </message>
+    <message>
         <source>CURRENT</source>
         <translation>当前</translation>
     </message>
     <message>
+        <source>Optimizing the Curve Optimizer values will result in multiple system restarts, please save your work, and close all applications before proceeding.
+</source>
+        <translation>对曲线优化器的值进行优化可能导致多次系统重启，请保存您的工作，并在继续前关闭所有应用。</translation>
+    </message>
+    <message>
         <source>Reset: </source>
         <translation>重置: </translation>
+    </message>
+    <message>
+        <source>Selected Curve Optimizer mode is not allowed to apply if CCD&apos;s are disabled.
+</source>
+        <translation>如果 CCD 被禁用，所选的曲线优化器模式不能应用。</translation>
+    </message>
+    <message>
+        <source>Can not overclock APU GFX Clock above BIOS limits</source>
+        <translation>无法将 APU GFX 时钟频率超过 BIOS 限制频率</translation>
     </message>
     <message>
         <source>Last Applied Profile was not a stable profile.</source>
@@ -2773,8 +3715,17 @@
         <translation>应用所做的更改</translation>
     </message>
     <message>
+        <source>Please enable all CCD&apos;s and then apply again.</source>
+        <translation>请启用所有的&#xa0;CCD 然后重新应用。</translation>
+    </message>
+    <message>
         <source>Interrupted</source>
         <translation>中断</translation>
+    </message>
+    <message>
+        <source>Optimization method has reached Max offset.
+</source>
+        <translation>优化方法已达到最大偏移。</translation>
     </message>
     <message>
         <source>Success</source>
@@ -2783,6 +3734,16 @@
     <message>
         <source>Running Stress Test</source>
         <translation>运行压力测试</translation>
+    </message>
+    <message>
+        <source>Optimizing the Curve Optimizer values will result in multiple system restarts, please save your work, and close all applications before proceeding.
+
+</source>
+        <translation>对曲线优化器的值进行优化可能导致多次系统重启，请保存您的工作，并在继续前关闭所有应用。</translation>
+    </message>
+    <message>
+        <source>System should be in other than Manual control mode to Start Optimizing!!! </source>
+        <translation>系统应为非手动控制模式才能开始优化！！！</translation>
     </message>
     <message>
         <source>Set your application preferences</source>
@@ -2797,6 +3758,19 @@
         <translation>启动手动模式之前，请考虑设置核心频率</translation>
     </message>
     <message>
+        <source>Curve Optimizer Values has been optimized 
+</source>
+        <translation>曲线优化器的值已被优化</translation>
+    </message>
+    <message>
+        <source>The PBO is not supported for this OPN or PCD values cannot be set from BIOS!!! </source>
+        <translation>该 OPN 不支持&#xa0;PBO，或者 PCD 的值不能通过基本输入/输出系统 (BIOS)&#xa0;设置！！！</translation>
+    </message>
+    <message>
+        <source>Do you want to proceed now?</source>
+        <translation>您希望立即继续吗？</translation>
+    </message>
+    <message>
         <source>Settings</source>
         <translation>设置</translation>
     </message>
@@ -2805,8 +3779,39 @@
         <translation>要切换到手动 OC 模式，CPU 速度和峰值核心电压需要与它一起应用</translation>
     </message>
     <message>
+        <source>Selected Curve Optimizer mode has not been optimized.
+</source>
+        <translation>所选的曲线优化器模式还没有被优化。</translation>
+    </message>
+    <message>
         <source>Advanced View</source>
         <translation>高级视图</translation>
+    </message>
+    <message>
+        <source>Last Applied Profile was not a stable profile !!</source>
+        <translation>最后应用的配置文件不是一个稳定的配置文件！！</translation>
+    </message>
+    <message>
+        <source>These values can be applied through &apos;Curve Optimizer&apos; profile.</source>
+        <translation>这些值可以通过“曲线优化器”配置文件来应用。</translation>
+    </message>
+    <message>
+        <source>NOTE: Optimization for selected method was interrupted last time.
+</source>
+        <translation>注意：对所选方法的优化上次被中断。</translation>
+    </message>
+    <message>
+        <source>Click on &apos;Resume&apos; to resume the optimizing process from where it was interuppted.
+</source>
+        <translation>单击“继续”从被中断位置继续。</translation>
+    </message>
+    <message>
+        <source>Please disable Memory Access Mode and then apply again.</source>
+        <translation>请禁用内存访问模式然后重新应用。</translation>
+    </message>
+    <message>
+        <source>CURVE OPTIMIZER</source>
+        <translation>曲线优化器</translation>
     </message>
     <message>
         <source>Please wait...</source>
@@ -2822,6 +3827,10 @@
     <message>
         <source>Minimize</source>
         <translation>最小化</translation>
+    </message>
+    <message>
+        <source>Launch Bug Report Tool</source>
+        <translation>启动错误报告工具</translation>
     </message>
     <message>
         <source>Maximize</source>
@@ -2856,7 +3865,7 @@
     </message>
 </context>
 <context>
-    <name>GPUControl</name>
+    <name>CurveOptimizerControl</name>
     <message>
         <source>Max: </source>
         <translation>最高： </translation>
@@ -2866,12 +3875,82 @@
         <translation>最低： </translation>
     </message>
     <message>
-        <source>BIOS limit: </source>
-        <translation>BIOS 限制： </translation>
+        <source>Click &apos;Cancel&apos; to proceed to Ryzen Master Utility 
+</source>
+        <translation>单击“取消”以转至&#xa0;Ryzen Master Utility</translation>
+    </message>
+    <message>
+        <source>CO Core </source>
+        <translation>CO 核心</translation>
+    </message>
+    <message>
+        <source>Difference offset value adjusts the derived offset value before Apply.</source>
+        <translation>偏移值差值在应用前调整导出的偏移值。</translation>
+    </message>
+    <message>
+        <source> Value</source>
+        <translation>值</translation>
+    </message>
+    <message>
+        <source>CO All Core Value</source>
+        <translation>CO 全部核心值</translation>
+    </message>
+    <message>
+        <source>Curve Optimizer Method : </source>
+        <translation>曲线优化器方法：</translation>
+    </message>
+    <message>
+        <source>Optimize the system for best performance</source>
+        <translation>正在优化系统以达到最佳性能</translation>
+    </message>
+    <message>
+        <source>Start Optimizing</source>
+        <translation>开始优化</translation>
+    </message>
+    <message>
+        <source>Curve Optimizer Mode</source>
+        <translation>曲线优化器模式</translation>
+    </message>
+    <message>
+        <source>Click &apos;OK&apos; to apply &amp; test Offset values.</source>
+        <translation>单击“确定”以应用并测试偏移值。</translation>
+    </message>
+    <message>
+        <source>Validate Offset</source>
+        <translation>使偏移生效</translation>
+    </message>
+    <message>
+        <source>Apply CO manual offset values and stress test</source>
+        <translation>应用 CO 手动偏移值并压力测试</translation>
+    </message>
+    <message>
+        <source>Invalid Offset value !</source>
+        <translation>偏移值无效！</translation>
+    </message>
+    <message>
+        <source> For example, if derived values is -25 and difference offset value is 5 then RM applies -20 as the offset value.</source>
+        <translation>例如，如果导出的值是 -25，偏移值差值是 5，那么 RM 会应用 -20 作为偏移值。</translation>
+    </message>
+    <message>
+        <source>System should be in other than Manual control mode to Validate Offset value !!! </source>
+        <translation>系统应为非手动控制模式以使偏移值生效！！！</translation>
+    </message>
+    <message>
+        <source>Below are the Curve Optimizer Values that will be applied
+</source>
+        <translation>以下是即将应用的曲线优化器值</translation>
+    </message>
+    <message>
+        <source>Please select valid offset values and try again.</source>
+        <translation>请选择有效的偏移值并重试。</translation>
+    </message>
+    <message>
+        <source>Difference Offset Value</source>
+        <translation>偏移值差值</translation>
     </message>
 </context>
 <context>
-    <name>SliderRectTxt</name>
+    <name>CustomRangeSlider</name>
     <message>
         <source>Max: </source>
         <translation>最高： </translation>
@@ -2881,12 +3960,20 @@
         <translation>最低： </translation>
     </message>
     <message>
-        <source>BIOS limit: </source>
-        <translation>BIOS 限制: </translation>
+        <source>Range of </source>
+        <translation>范围 -&#xa0;</translation>
     </message>
     <message>
-        <source>Press &quot;Apply&quot; to use your values</source>
-        <translation>按“应用”以使用您的值</translation>
+        <source>Step Size: </source>
+        <translation>步长： </translation>
+    </message>
+    <message>
+        <source>Maximum value of </source>
+        <translation>最大值 -&#xa0;</translation>
+    </message>
+    <message>
+        <source>Minimum value of </source>
+        <translation>最小值 -&#xa0;</translation>
     </message>
 </context>
 <context>
@@ -2980,96 +4067,29 @@
     </message>
 </context>
 <context>
-    <name>SettingsData</name>
+    <name>CoSequentialOptimization</name>
     <message>
-        <source>Don&apos;t show warning message</source>
-        <translation>不显示此信息</translation>
+        <source>Core Number </source>
+        <translation>核心数</translation>
     </message>
     <message>
-        <source>Logging</source>
-        <translation>日志</translation>
-    </message>
-    <message>
-        <source>Enable Minimize DashBoard</source>
-        <translation>启用最小化仪表板</translation>
-    </message>
-    <message>
-        <source>RM Animations</source>
-        <translation>RM 动画</translation>
-    </message>
-    <message>
-        <source>Log Path</source>
-        <translation>日志路径</translation>
-    </message>
-    <message>
-        <source>Show Histogram</source>
-        <translation>显示直方图</translation>
-    </message>
-    <message>
-        <source>Stress Test Type</source>
-        <translation>压力测试类型</translation>
-    </message>
-    <message>
-        <source>Language</source>
-        <translation>语言</translation>
-    </message>
-    <message>
-        <source>Persistent PCD Values</source>
-        <translation>持久 PCD 值</translation>
-    </message>
-    <message>
-        <source>Histogram History</source>
-        <translation>直方图历史记录</translation>
-    </message>
-    <message>
-        <source>Advanced view</source>
-        <translation>高级模式</translation>
-    </message>
-    <message>
-        <source>Live Monitoring</source>
-        <translation>实时监视器</translation>
-    </message>
-    <message>
-        <source>Stress Test Duration</source>
-        <translation>压力测试持续时间</translation>
-    </message>
-    <message>
-        <source>Update Interval</source>
-        <translation>更新间隔</translation>
+        <source>Die Number </source>
+        <translation>​裸片数</translation>
     </message>
 </context>
 <context>
-    <name>CompRectBase</name>
+    <name>NvcCurveOptimizerMode</name>
     <message>
-        <source>Included</source>
-        <translation>已包含</translation>
+        <source>Optimize the system for best performance</source>
+        <translation>优化系统以达到最佳性能</translation>
     </message>
     <message>
-        <source>Excluded</source>
-        <translation>已排除</translation>
-    </message>
-</context>
-<context>
-    <name>OcMode</name>
-    <message>
-        <source>Eco-Mode sets the processor to operate in a lower-power condition</source>
-        <translation>节能模式将处理器设置为在低功耗条件下运行</translation>
+        <source>Start Optimizing</source>
+        <translation>开始优化</translation>
     </message>
     <message>
-        <source>Sets a maximum boost frequency higher than the stock frequency</source>
-        <translation>设置高于默认设置频率的最大超频频率</translation>
-    </message>
-    <message>
-        <source>Manual Mode</source>
-        <translation>手动模式</translation>
-    </message>
-    <message>
-        <source>Allows the processor to run beyond the default infrastructure limits up to the limits of the board to potentially achieve higher sustained frequencies</source>
-        <translation>允许处理器超出默认基础架构限制运行，最高达到主板的上限，以潜在实现更高的持久频率</translation>
-    </message>
-    <message>
-        <source>Default infrastructure limits</source>
-        <translation>默认基础架构限制</translation>
+        <source>Curve Optimizer Mode</source>
+        <translation>曲线优化器模式</translation>
     </message>
 </context>
 </TS>
